@@ -1,0 +1,109 @@
+body{
+    margin:5px 15px;
+
+}
+
+.card
+{
+    margin: 10px 0px;
+    margin-top: 30px;
+}
+
+.card-title1
+{
+    text-align: center;
+    font-family:cursive;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+  
+    
+}
+.card-title
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-style: oblique;
+    font-size:larger;
+
+}
+
+.card-body
+{
+    background-image: linear-gradient(to right, #b9b5ac , #454c4c);    
+}
+
+img
+{
+    height: 120px;width:180px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
+
+button
+{
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 40px;
+}
+.main:hover {
+animation: animation 8s linear infinite;
+border: none;
+}
+@keyframes animation {
+   0% {background-position: 0%;}
+   100% {background-position: 400%;} 
+}
+.main::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: -42px;
+    transition: 1s;
+}
+.main:hover::before{
+    filter: blur(20px);
+}
+.word-waves h3{
+    margin-left: 720px;
+    margin-top: 66px;
+    position:static;
+    color: #ffffff;
+    font-size: 3em;
+    transform: translate(-50%,-50%);
+    
+}
+.word-waves h3:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 1px whitesmoke;
+    
+
+}
+
+body{
+    background: linear-gradient(to left,whitesmoke,black);
+}
+.card-title2{
+    
+    background: linear-gradient(86deg,white,gold);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+   
+}
